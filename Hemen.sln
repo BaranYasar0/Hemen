@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCF32490-6078-4F61-9E2A-852E04ACD532}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DE45E35-9CB9-480A-99DD-351D994EAAD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4880C5F-6EDD-45DA-965E-4E71F7B51737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B03DD4E7-3432-4856-9C5B-3F10F1302144}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1460557F-CB2B-4DF2-A96B-3E2951916768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7851D6F4-5EEF-4723-8C93-DBD58B83F80B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{BD15B920-6666-4350-9200-326BFD64328D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemen.Identity.API", "src\Identity\Hemen.Identity.API\Hemen.Identity.API.csproj", "{433587BA-7F0D-4803-9098-EA1E34C12298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker-compose", "docker-compose", "{15727F11-472E-4D8E-B761-60D531608A05}"
+	ProjectSection(SolutionItems) = preProject
+		redis.yaml = redis.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemen.Infrastructure", "src\Infrastructure\Hemen.Infrastructure\Hemen.Infrastructure.csproj", "{0D9B1CC8-8E5E-462B-B711-F20C60360D9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433587BA-7F0D-4803-9098-EA1E34C12298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433587BA-7F0D-4803-9098-EA1E34C12298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433587BA-7F0D-4803-9098-EA1E34C12298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433587BA-7F0D-4803-9098-EA1E34C12298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9B1CC8-8E5E-462B-B711-F20C60360D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9B1CC8-8E5E-462B-B711-F20C60360D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9B1CC8-8E5E-462B-B711-F20C60360D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9B1CC8-8E5E-462B-B711-F20C60360D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B03DD4E7-3432-4856-9C5B-3F10F1302144} = {1DE45E35-9CB9-480A-99DD-351D994EAAD0}
+		{1460557F-CB2B-4DF2-A96B-3E2951916768} = {1DE45E35-9CB9-480A-99DD-351D994EAAD0}
+		{7851D6F4-5EEF-4723-8C93-DBD58B83F80B} = {1DE45E35-9CB9-480A-99DD-351D994EAAD0}
+		{BD15B920-6666-4350-9200-326BFD64328D} = {1DE45E35-9CB9-480A-99DD-351D994EAAD0}
+		{433587BA-7F0D-4803-9098-EA1E34C12298} = {BD15B920-6666-4350-9200-326BFD64328D}
+		{0D9B1CC8-8E5E-462B-B711-F20C60360D9A} = {7851D6F4-5EEF-4723-8C93-DBD58B83F80B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4237354B-8FFB-480E-8D4E-73877E60E056}
+	EndGlobalSection
+EndGlobal
